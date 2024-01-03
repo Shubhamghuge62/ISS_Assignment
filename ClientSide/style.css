@@ -1,0 +1,65 @@
+@charset "ISO-8859-1";
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://t4.ftcdn.net/jpg/04/92/22/93/240_F_492229389_5ve1bCKgYrLRHpCj3o4FAzz60efaZgG0.jpg');
+  }
+   
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    transition: background-color 0.3s; /* Smooth transition for background color change */
+  }
+
+  /* Valid state */
+  form.valid {
+    background-color: #5cb85c; /* Green background for valid state */
+  }
+
+  /* Invalid state */
+  form.invalid {
+    background-color: #d9534f; /* Red background for invalid state */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  
+   button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-top: 20px; 
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .error {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
