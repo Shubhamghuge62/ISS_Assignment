@@ -1,0 +1,22 @@
+<persons>
+    <person>
+        <firstname>Suresh</firstname>
+        <lastname>Ghuge</lastname>
+        <age>30</age>
+        <address>
+            <street>123 Main Street</street>
+            <city>Pune</city>
+            <zip>12345</zip>
+        </address>
+    </person>
+    <person>
+        <firstname>Shubham</firstname>
+        <lastname>Ghuge</lastname>
+        <age>25</age>
+        <address>
+            <street>456 Oak Avenue</street>
+            <city>Mumbai</city>
+            <zip>67890</zip>
+        </address>
+    </person>
+</persons>

@@ -1,0 +1,12 @@
+[
+  {
+    "firstname": "John",
+    "lastname": "Doe",
+    "address": "123 Jijamata Nagar, Kalachowki, Mumbai, India"
+  },
+  {
+    "firstname": "Jane",
+    "lastname": "Smith",
+    "address": "456 Oak Avenue, Borivali, Mumbai, India"
+  }
+]
